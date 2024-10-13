@@ -38,11 +38,10 @@ class DictionaryController extends AbstractController
 
         return new Response("Entry was updated");
     }
-
-    #[Route('/dictionary/delete/{id}', name: 'dictionary_delete')]
-    public function delete(Dictionary $dictionary): Response
+    
+    public function delete(): Response
     {
-        $this->dictionaryService->delete($dictionary);
+        $this->dictionaryService->delete();
 
         return new Response("Entry was deleted");
     }

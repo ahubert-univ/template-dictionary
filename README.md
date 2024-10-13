@@ -22,5 +22,7 @@ Travail à réaliser:
 - Créer une classe DictionaryService
     - Créer 3 methode create,update,delete
     - retrouver les parametres avec le controller !
-
+- Dans DictionaryController
+  - Complèter la fonction delete qui supprime une entrée dans dictionary
+  - URL /dictionary/delete/{id}
 - Commiter et pusher votre fichier AVANT LE 22 OCTOBRE (23h59)
