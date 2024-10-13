@@ -6,7 +6,7 @@ Travail à réaliser:
 - Cloner votre repository personnel
 -  Créer Les entitées en suivant le schema ( attention on passe du snake_case ou camelCase)
    voir le fichier bdd_schema.png dans le repository
-
+   ![enter image description here](https://raw.githubusercontent.com/ahubert-univ/template-dictionary/refs/heads/main/bdd_schema.png)
 -  Créer une migration
 - Ajouter à votre migration 3 entrées dans la table langue
 - Ajouter 2 entrées  dans la table dictionary ( pour des tests !!)
